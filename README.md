@@ -1,4 +1,4 @@
-My first RWD project with best practices learned from the course. 
+My first RWD website where I learned how to write clean HTML/SCSS/ReactJS code.
 
 1.Clone
 

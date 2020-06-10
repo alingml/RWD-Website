@@ -1,0 +1,797 @@
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "all";
+
+
+/* HEADER */
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  .div-logo {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    img{
+      width:80%;
+      background-size:auto;
+    }
+  }
+}
+
+.nav-bar a:visited{
+  color:$mainBlueColor;
+}
+
+.nav-bar{
+  font-family: $second-font-mobile;
+  font-weight:700;
+  color:$secondFontColor;
+  ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+    margin:8%;
+  li{
+    list-style: none;
+    a {
+      color:$secondFontColor;
+      text-decoration: none;
+      }
+    }
+    }
+  }
+
+
+
+.carousel {
+   display:flex;
+   justify-content: center;
+
+  img {
+    width: 100%;
+    height: 30%;
+    margin-top:10px;
+    background-size: auto;
+
+  }
+}
+
+#quote{
+  width:90%;
+  color:$mainBlueColor;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top:10%;
+}
+
+.about h2{
+    font-family:$second-font-mobile;
+    font-size:29px;
+    padding: 40px 20px 20px 20px;
+    font-weight: 700;
+    text-align: center;
+    color:$mainBlueColor;
+}
+.about  p{
+    font-family:$main-font-mobile;
+    font-size:18px;
+    width:90%;
+    text-align: justify;
+    align-content: center;
+    line-height:1.5;
+    margin:5%;
+
+}
+
+.about span{
+  font-family: $second-font-mobile;
+  font-weight:700;
+  font-size:20px;
+  color:$secondFontColor;
+  margin-left:5%;
+}
+
+.about img{
+    width:100%;
+    margin-top:10px;
+    background-size:auto;
+    height:30%;
+}
+
+/* CONTENT */
+
+/* Infrastructuri si suprastructuri rutiere*/
+
+
+.services h2{
+    font-family:$second-font-mobile;
+    font-size:29px;
+    padding: 40px 20px 20px 20px;
+    font-weight: 700;
+    text-align: center;
+    color:$mainBlueColor;
+}
+
+.services-content img{
+    background-size:auto;
+    align-content: center;
+    align-items: center;
+    margin-left:45%;
+    margin-top:5%;
+}
+
+.services-content h3{
+    font-family:$second-font-mobile;
+    padding: 20px 20px 20px 20px;
+    font-weight: 700;
+    text-align: center;
+    color:$secondFontColor;
+
+}
+
+
+
+.services-content li{
+    list-style: square;
+    font-family:$main-font-mobile;
+    font-size:18px;
+    text-align: justify;
+    line-height:1;
+    width:90%;
+    margin:10%;
+}
+
+/* Terasamente si sistematizarea terenurilor */
+
+
+.services-cars img{
+  background-size:auto;
+  align-content: center;
+  align-items: center;
+  margin-left:45%;
+  margin-top:5%;
+}
+
+.services-cars h3{
+  font-family:$second-font-mobile;
+  padding: 20px 20px 20px 20px;
+  font-weight: 700;
+  text-align: center;
+  color:$secondFontColor;
+
+}
+
+
+
+.services-cars-list li{
+  list-style: square;
+  font-family:$main-font-mobile;
+  font-size:18px;
+  text-align: justify;
+  line-height:1;
+  width:90%;
+  margin:10%;
+}
+
+/* Constructii si obiective comerciale, industriale si rezidentiale*/
+
+.services-common img{
+  background-size:auto;
+  align-content: center;
+  align-items: center;
+  margin-left:45%;
+  margin-top:5%;
+}
+
+.services-common h3{
+  font-family:$second-font-mobile;
+  padding: 20px 20px 20px 20px;
+  font-weight: 700;
+  text-align: center;
+  color:$secondFontColor;
+
+}
+
+
+
+.services-common-list li{
+  list-style: square;
+  font-family:$main-font-mobile;
+  font-size:18px;
+  text-align: justify;
+  line-height:1;
+  width:90%;
+  margin:10%;
+}
+
+/* Alte Servicii*/
+
+.services-other img{
+  background-size:auto;
+  align-content: center;
+  align-items: center;
+  margin-left:45%;
+  margin-top:5%;
+}
+
+.services-other h3{
+  font-family:$second-font-mobile;
+  padding: 20px 20px 20px 20px;
+  font-weight: 700;
+  text-align: center;
+  color:$secondFontColor;
+
+}
+
+
+
+.services-other-list li{
+  list-style: square;
+  font-family:$main-font-mobile;
+  font-size:18px;
+  text-align: justify;
+  line-height:1;
+  width:90%;
+  margin:10%;
+}
+
+/* Grey Container */
+
+.container-grey {
+  width: 100%;
+  height: 54vh;
+  background-color: $backgroundColor;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  p {
+    font-family: $second-font-mobile;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+  }
+}
+
+#icons-grey-container {
+    margin-bottom: 5%;
+    font-size:30px;
+    color:$secondFontColor;
+  }
+
+
+.container-grey p:nth-of-type(2) {
+  color:$secondFontColor;
+  font-size:13px;
+}
+
+.container-grey-one{
+  width:50%;
+  height:50%;
+  margin-top:10%;
+  line-height: 3;
+  align-items: center;
+}
+
+.container-grey-second{
+  width:50%;
+  height:50%;
+  margin-top:10%;
+  line-height: 3;
+  align-items: center;
+
+}
+
+.container-grey-third{
+  width:50%;
+  height:50%;
+  line-height: 3;
+  align-items: center;
+}
+
+.container-grey-fourth{
+  width:50%;
+  height:50%;
+  line-height: 3;
+  align-items: center;
+}
+
+/* Projects */
+
+.photos h2{
+  font-family:$second-font-mobile;
+  font-size:29px;
+  padding: 40px 20px 20px 20px;
+  font-weight: 700;
+  text-align: center;
+  color:$mainBlueColor;
+}
+
+.projects{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.projects img{
+  width:100%;
+  height:30vh;
+  margin-top:2%;
+  border:3px solid lightgrey;
+  transition: transform .5s ease;
+  cursor:pointer;
+}
+
+.projects img:hover{
+  transform:scale(1.5);
+}
+
+.table h2{
+  font-family:$second-font-mobile;
+  font-size:29px;
+  padding: 40px 20px 20px 20px;
+  font-weight: 700;
+  text-align: center;
+  color:$mainBlueColor;
+}
+
+
+/* Footer Container */
+
+.footer-container{
+  width:100%;
+  height:70vh;
+  background-color:$backgroundColor;
+  font-family: $second-font-mobile;
+
+}
+
+.footer-address{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  line-height:2.5;
+  color:white;
+}
+
+.footer-email{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  line-height:2.5;
+  color:white;
+  a{
+    text-decoration: none;
+    color:white;
+  }
+}
+
+.footer-phone{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  line-height:2.5;
+  color:white;
+  a {
+    text-decoration: none;
+    color:white;
+  }
+}
+
+.copyright{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  font-size:12px;
+  border-top:1px solid white;
+  color:grey;
+  span{
+    margin-top:2%;
+  }
+}
+
+#home-icon{
+  margin-top:7%;
+  margin-bottom:7%;
+  color:$secondFontColor;
+  font-size:40px;
+}
+
+table{
+  width:100%;
+  border:2px solid $mainBlueColor;
+  margin-top:15px;
+}
+
+th, td{
+  padding:15px;
+  text-align:center;
+  border:2px solid $mainBlueColor;
+  font-size:21px;
+}
+
+
+
+/* Tablet Media Queries */
+
+@media only screen and (min-width:768px) and (max-width:1024px) and(-webkit-min-device-pixel-ratio: 2) {
+
+  /* Header */
+
+  .nav-bar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom:2%;
+    margin-top:8%;
+  }
+
+  #quote{
+    font-size:28px;
+    letter-spacing: 2px;
+  }
+
+  .about h2{
+    font-size:40px;
+  }
+  .about p{
+    font-size:26px;
+  }
+  .about span{
+    font-size:28px;
+  }
+  .about img{
+    height:35%;
+  }
+
+  /* Content */
+
+  .services h2{
+    font-size:40px;
+  }
+
+  .services-content img{
+    width:100px;
+    height:100px;
+  }
+
+  .services-cars img{
+    width:100px;
+    height:100px;
+  }
+
+  .services-common img{
+    width:100px;
+    height:100px;
+  }
+
+  .services-other img{
+    width:100px;
+    height:100px;
+  }
+
+  .services-content h3{
+    font-size:28px;
+  }
+  .services-cars h3{
+    font-size:28px;
+  }
+  .services-common h3{
+    font-size:28px;
+  }
+  .services-other h3{
+    font-size:28px;
+  }
+
+  .services-content ul{
+    border:2px solid grey;
+  }
+
+  .services-content li {
+    text-align:center;
+    font-size:24px;
+    list-style:none;
+    font-family: $second-font-mobile;
+    font-weight:300;
+  }
+
+  .services-cars ul{
+    border:2px solid grey;
+  }
+
+  .services-cars li {
+    text-align:center;
+    font-size:24px;
+    list-style:none;
+    font-family: $second-font-mobile;
+    font-weight:300;
+  }
+
+  .services-common ul{
+    border:2px solid grey;
+  }
+
+  .services-common li {
+    text-align:center;
+    font-size:24px;
+    list-style:none;
+    font-family: $second-font-mobile;
+    font-weight:300;
+  }
+
+  .services-other ul{
+    border:2px solid grey;
+  }
+
+  .services-other li {
+    text-align:center;
+    font-size:24px;
+    list-style:none;
+    font-family: $second-font-mobile;
+    font-weight:300;
+  }
+
+  /* Grey Container */
+
+  .container-grey{
+    height:55vh;
+    margin-top:0;
+  }
+
+  .container-grey p {
+    font-size:35px;
+  }
+
+  .container-grey p:nth-of-type(2){
+    font-size:18px;
+  }
+
+  .container-grey-one{
+    line-height:2.5;
+  }
+
+  .container-grey-third{
+    line-height:2.5;
+  }
+
+  .container-grey-fourth{
+    line-height:2.5;
+  }
+
+  .container-grey-second{
+    line-height:2.5;
+  }
+
+  #icons-grey-container{
+    font-size:45px;
+  }
+
+  /* Projects */
+
+  .photos h2{
+    font-size:40px;
+  }
+
+  .projects img{
+    height:45vh;
+  }
+
+  /* Footer Container */
+
+  .footer-container{
+    height:84vh;
+    font-size:23px;
+  }
+
+}
+
+/* Desktop Media Queries */
+
+@media only screen and (min-width:1200px) {
+
+ header .div-logo img{
+    width:25%;
+  }
+
+  .nav-bar{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:22px;
+    margin:0;
+  }
+  .nav-bar li{
+    margin:25%;
+  }
+  .carousel img {
+    height:70vh;
+    width:100%;
+
+  }
+  .about-display{
+    width:60%;
+    margin-left:18%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+
+  }
+
+  #quote{
+    font-size:23px;
+  }
+  .about{
+    text-align: center;
+  }
+  .about p{
+    margin:4%;
+  }
+  .about span{
+    margin:0;
+  }
+  .about img{
+    height:63vh;
+    width:100%;
+  }
+
+  /* Content */
+
+
+
+  .services h2{
+    font-size:40px;
+    margin-top:7%;
+    margin-bottom:5%;
+  }
+
+  .services-content{
+    border:2px solid grey;
+    border-radius:5%;
+    margin-right:2%;
+
+  }
+
+  .services-content li{
+    list-style: none;
+    text-align: center;
+    line-height:1.5;
+  }
+
+  .services-cars{
+    border:2px solid grey;
+    border-radius:5%;
+    margin-right:2%;
+  }
+
+  .services-cars li{
+    list-style: none;
+    text-align: center;
+    line-height:1.5;
+  }
+
+  .services-common{
+    border:2px solid grey;
+    border-radius:5%;
+    margin-right:2%;
+  }
+
+
+
+  .services-common li{
+    list-style: none;
+    text-align: center;
+    line-height:1.5;
+  }
+
+  .services-other{
+    border:2px solid grey;
+    border-radius:5%;
+
+  }
+
+  .services-other li{
+    list-style: none;
+    text-align: center;
+  }
+
+  .services-display{
+    width:90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:5%;
+  }
+
+  /* Grey Container */
+
+  .container-grey {
+    height: 100vh;
+    p{
+      font-size:50px;
+    }
+  }
+
+  #icons-grey-container{
+    font-size:50px;
+  }
+
+  .container-grey p:nth-of-type(2){
+    font-size:18px;
+  }
+
+  /* Projects */
+
+  .photos h2{
+    padding: 100px 20px 100px 20px;
+    font-size:40px;
+  }
+  .projects{
+    display:flex;
+    justify-content: space-between;
+  }
+  .projects img{
+    width:33%;
+    img:hover {
+      transition:0.5s;
+      transform: scale(1.25);
+    }
+  }
+
+  .table h2{
+    padding: 100px 20px 100px 20px;
+    font-size:40px;
+  }
+
+  table{
+    width:50%;
+    margin-bottom:2%;
+  }
+
+  .table-display {
+    display:flex;
+    justify-content: center;
+  }
+
+  /* Footer Container */
+
+  .footer-container{
+    height:30vh;
+  }
+
+  .footer-display{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+  }
+
+
+  /* Macbooks Resolution*/
+  @media only screen and (min-width:1200px) {
+
+  .container-grey{
+    height:120vh;
+  }
+  
+  .copyright{
+  display:none  }
+
+  }
+}

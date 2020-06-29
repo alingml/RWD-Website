@@ -1,4 +1,9 @@
-My first RWD website where I learned how to write clean HTML/SCSS/ReactJS code.
+This is my first responsive web design project using mobile first approach with @media queries, HTML, SCSS, Javascript(ES6), ReactJS(JSX) and some online libraries like AOS and FontAwesome ;
+
+The site is now live and you can see it on https://www.autoprimaserv.ro ;
+
+
+For the Code:
 
 1.Clone
 
